@@ -1,12 +1,13 @@
 [package]
 name = "proto"
-version = "0.4.0"
+version = "0.5.0"
 edition = "2021"
 license = "MIT"
 
 [dependencies]
-tonic = "0.12"
-prost = "0.13"
+tonic = "0.14"
+tonic-prost = "0.14"
+prost = "0.14"
 
 [build-dependencies]
-tonic-build = "0.12"
+tonic-prost-build = "0.14"
